@@ -1,5 +1,5 @@
 # Fruit Tree Crypto Trading
-Fruit Tree Crypto Trading is an opensource project for creating a custom crypto auto-trader.
+Fruit Tree Crypto Trading is an opensource project for creating a custom "build-your-own" crypto auto-trader.
 
 Fruit Tree Crypto Trading offers support for the following crypto exchanges:
 - Coinbase Pro
@@ -32,8 +32,14 @@ However, the user doesn't want the auto-trader to be checking the two conditions
 - (ID = 2) If the price goes up 0.5% in 3 minutes, buy bitcoin
 
 In a more visual manner, this would look like:
+<p align="center">
+<img src="docs/images/trade-condition-example1.png" alt="Test" width="300"/>
+</p>
+Because of this, large trees can be made, where conditions can have many previous links, but only one next link:
 
-Because of this, large trees can be made, where conditions can have many previous links, but only one next link.
+<p align="center">
+<img src="docs/images/trade-condition-example2.png" alt="Test" width="700" align="center"/>
+</p>
 
 Using trading conditions as nodes in trees IS NOT REQUIRED. Many trading conditions can be run simultaneously without any connection between them. The trading conditions can be as simple or complex as you would like.
 
