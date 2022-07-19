@@ -6,11 +6,11 @@ Fruit Tree Crypto Trading offers support for the following crypto exchanges:
 - Robinhood
 
 ### Basics
-Fruit Tree Crypto Trading is based upon the following idea:
-- When there is an indication that a coin's price is going up, and the user has their money in USD, it will buy some amount of the cryptocurrency
-- When there is an indication that a coin's price is going down, and the user has their money in the cryptocurrency, it will sell the specified amount of cryptocurrency
+The Fruit Tree Crypto Trading trading methods are based upon the following idea:
+- When there is an indication that a coin's price is going up (which is set by the customized buy conditions), and the user has their money in USD, the auto-trader will buy some amount of the cryptocurrency
+- When there is an indication that a coin's price is going down (which is set by the customized sell conditions), and the user has their money in the cryptocurrency, it will sell the specified amount of cryptocurrency
 
-This idea is a very abstracted version of what Fruit Tree Crypto Trading can do.
+**Essentially, when prices are starting to rise, the auto-trader will be triggered to buy, and when prices are starting to fall, the auto-trader will be triggered to sell. These rising and falling triggers are completely customizable by the user.**
 
 What makes Fruit Tree Crypto Trading especially unique is how **trading conditions can be used as singly linked lists and trees**, which is where Fruit Tree Crypto Trading gets its name.
 
