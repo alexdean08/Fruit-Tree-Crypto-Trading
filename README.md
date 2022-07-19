@@ -17,7 +17,11 @@ What makes Fruit Tree Crypto Trading especially unique is how **trading conditio
 ### Getting Started
 Read through the following to understand the usage and the functionality of the Fruit Tree Crypto Trading.
 
-Customize your own trading conditions through the use of config files (see below) and use trading conditions as trees and links (also see below) to further customize how you want to trade Crypto.
+Customize your own trading conditions through the use of config files (see below) and use trading conditions as trees and links (also see below) to further customize how you want to trade crypto.
+
+### Sandbox
+There is also a **sandbox** mode, where you can add fake funds and execute the trading conditions using the fake funds. This can be configured as part of the setup script (see below).
+
 ## Trading Condition Trees and Links
 
 Fruit Tree Crypto Trading uses the idea of trading conditions as nodes on a tree.
@@ -41,7 +45,7 @@ Because of this, large trees can be made, where conditions can have many previou
 <img src="docs/images/trade-condition-example2.png" alt="Test" width="700" align="center"/>
 </p>
 
-Using trading conditions as nodes in trees IS NOT REQUIRED. Many trading conditions can be run simultaneously without any connection between them. The trading conditions can be as simple or complex as you would like.
+**Using trading conditions as nodes in trees IS NOT REQUIRED. Many trading conditions, or only one or two, can be run simultaneously without any connection between them. The trading conditions can be as simple or complex as you would like.**
 
 Notes on hierarchy of trading conditions:
 - The trading conditions that will be looked into first will be the trading conditions that don't have any previous conditions. Using the same example as above, trading condition 1 will always start the possible buying process. You don't need to specify which trading condition will start the process.
@@ -131,7 +135,9 @@ Necessary packages will be downloaded and you will be asked private information 
 - API Secret
 - etc.
 
-Additionally, you will be asked about a sell floor, which will cause an immediate sell and stop the program.
+Additionally, you will be asked about a **sell floor**, which will cause an immediate sell and stop the program.
+
+You will also be asked if you would like to execute the trading using fake funds in **sandbox** mode. If so, you will be asked how much money you would like to start with, and the trading will execute like normal, only the auto-trader will be using fake funds.
 
 Once all questions are answered. The auto-trader will be up and running!
 
