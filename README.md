@@ -68,7 +68,7 @@ Every trade condition is separated into its own section by the ```[ID]```.
 - ```FROM_DOWN```: Either from the maximum price in the interval "INTERVAL_PRICE", or the maximum price since the time of the last trade "TRADE_PRICE"
     - Optional if in ```buy-conditions.conf```
 - ```INTERVAL```: The interval in seconds for looking at recent minimum/maximum prices
-    - Optional if ```FROM_UP``` != MIN_PRICE and ```FROM_DOWN``` != INTERVAL_PRICE
+    - Optional if ```FROM_UP``` != INTERVAL_PRICE and ```FROM_DOWN``` != INTERVAL_PRICE
 - ```NEXT_LINK```: The condition ID for the next condition link assuming this condition is exceeded
     - Optional
 
@@ -114,7 +114,7 @@ This set of trading conditions starts at buy condition "2", which says to buy cr
 
 Once all the trading conditions are set, simply run the following
 ```bash
-./FruitTree.sh
+./Fruit-Tree.sh
 ```
 Necessary packages will be downloaded and you will be asked private information about the crypto exchange service you are looking to use, which could be:
 - Service name
