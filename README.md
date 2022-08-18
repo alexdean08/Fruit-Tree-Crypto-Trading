@@ -1,5 +1,5 @@
 # Fruit Tree Crypto Trading
-Fruit Tree Crypto Trading is an opensource project for creating a custom "build-your-own" crypto auto-trader.
+Fruit Tree Crypto Trading is an open-source project for creating a custom "build-your-own" crypto auto-trader.
 
 Fruit Tree Crypto Trading offers support for the following crypto exchanges:
 - Coinbase Pro
